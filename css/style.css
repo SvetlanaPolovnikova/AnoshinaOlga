@@ -298,7 +298,7 @@ body {
         text-align: center;
     }
     .kart{
-        background-color: #9c69a57e;
+        background-color: #CDEEEC;
         width: 600px;
         height: 800px;
         border-radius: 30px;
@@ -342,10 +342,10 @@ body {
     .nazvan p {
         align-items: center;
         font-size: 28px;
-        margin-top: 35px;
+        margin-top: 50px;
     }
     .menu{
-        margin-top: 15px;
+        margin-top: 23px;
         display: flex;
     }
     .menu a {
@@ -460,7 +460,7 @@ body {
     .karusel {
         justify-content: space-around;
         display: flex;
-        height: 590px;
+        height: 500px;
     }
 
     .slider-container {
@@ -547,7 +547,7 @@ body {
     .kartocki{
         display: flex;
         justify-content: space-around;
-        height: 450px;
+        height: 550px;
     }
     h3{
         font-size: 22px;
@@ -556,7 +556,7 @@ body {
         margin-bottom: 10px;
     }
     .kart{
-        background-color: #9c69a57e;
+        background-color: #CDEEEC;
         width: 300px;
         height: 450px;
         padding-bottom: 35px;
@@ -583,7 +583,7 @@ body {
     }
     .zapis_bg{
         background-color: #FF90A0;
-        height: 430px;
+        height: 480px;
         display: flex;
         justify-content: space-around;
     }
