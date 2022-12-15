@@ -547,7 +547,7 @@ body {
     .kartocki{
         display: flex;
         justify-content: space-around;
-        height: 460px;
+        height: 459px;
     }
     h3{
         font-size: 22px;
