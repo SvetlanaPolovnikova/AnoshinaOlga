@@ -342,10 +342,10 @@ body {
     .nazvan p {
         align-items: center;
         font-size: 28px;
-        margin-top: 50px;
+        margin-top: 30px;
     }
     .menu{
-        margin-top: 23px;
+        margin-top: 5px;
         display: flex;
     }
     .menu a {
@@ -547,7 +547,7 @@ body {
     .kartocki{
         display: flex;
         justify-content: space-around;
-        height: 550px;
+        height: 460px;
     }
     h3{
         font-size: 22px;
@@ -558,8 +558,7 @@ body {
     .kart{
         background-color: #CDEEEC;
         width: 300px;
-        height: 450px;
-        padding-bottom: 35px;
+        height: 400px;
         border-radius: 30px;
     }
     .photo{
@@ -586,6 +585,7 @@ body {
         height: 480px;
         display: flex;
         justify-content: space-around;
+        align-items: center;
     }
     .opisanie{
         width: 700px;
@@ -595,9 +595,6 @@ body {
     }
     .zapis_form{
         width: 415px;
-        position: relative;
-        top: 35px;
-        left: -10px;
     }
     .zapis::placeholder{
         color: black;
