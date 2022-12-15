@@ -1,0 +1,653 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Comfortaa', cursive;
+}
+body {
+        margin: 0;
+        padding: 0;
+    }
+@media (max-width:1920px)and (min-width: 1440px) {
+    .top {
+        background-color: #F7E8E8;
+        width: 100%;
+        height: 142px;
+
+    }
+
+    .seredina {
+        display: flex;
+        width: 1300px;
+        margin: 0 auto;
+    }
+
+    .nazvan p {
+        align-items: center;
+        margin: 50px 200px 50px 0;
+        font-size: 38px;
+    }
+
+    .menu {
+        margin-top: 50px;
+    }
+
+    .menu a {
+        text-decoration: none;
+        font-size: 28px;
+        color: black;
+        margin-right: 25px;
+
+        cursor: pointer;
+    }
+    .background{
+        background-image: url(/foto/bg1.png);
+        background-repeat: no-repeat;
+    }
+    .osnov_info {
+        justify-content: space-around;
+        display: flex;
+        height: 930px;
+
+    }
+
+    .foto img {
+        width: 480px;
+        height: 480px;
+        margin-left: 60px;
+        margin-top: 120px;
+
+    }
+
+    .kratko {
+        margin: 50px auto;
+        width: 860px;
+        font-size: 40px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .vazhno {
+        display: flex;
+        margin-top: 50px;
+        justify-content: space-around;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .bolds {
+        font-size: 70px;
+        font-weight: bold;
+        margin-top: -25px;
+        text-align: center;
+    }
+
+    .vazhno2 {
+        margin-top: 50px;
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .bolds2 {
+        font-size: 70px;
+        font-weight: bold;
+        margin-top: -25px;
+        text-align: center;
+        margin-right: 30px;
+    }
+
+    h2 {
+        text-align: center;
+        display: flex;
+        font-size: 80px;
+        width: 1000px;
+        margin: 40px auto 30px;
+        justify-content: center;
+    }
+
+    .foto_plus_text {
+        display: flex;
+        margin-left: 40px;
+        justify-content: space-around;
+    }
+
+    .text1 {
+        margin-bottom: 50px;
+        text-align: center;
+        width: 750px;
+        font-size: 35px;
+
+    }
+
+    .polosa {
+        height: 3px;
+        width: 800px;
+        background-color: black;
+    }
+
+    .text2 {
+        margin: 0 80px 100px;
+        font-size: 35px;
+
+    }
+
+    .text3 {
+        position: relative;
+        left: 50px;
+        font-size: 35px;
+        width: 605px;
+
+    }
+
+    .karusel {
+        justify-content: space-around;
+        display: flex;
+        margin-top: 55px;
+        height: 850px;
+    }
+
+    .slider-container {
+        height: 815px;
+        width: 750px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+    .slider-container input{
+        position: relative;
+        top: 400px;
+    }
+
+    .menu_prokrutka {
+        position: absolute;
+        left: 0;
+        z-index: 900;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .menu_prokrutka label {
+        cursor: pointer;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: #FF90A0;
+        border-radius: 50px;
+        margin: 0 0.2em 1em;
+    }
+
+    .menu_procrutka label:hover,
+    .menu_procrutka label:focus {
+        background: #1c87c9;
+    }
+
+    .slide {
+        width:750px;
+        height: 850px;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        z-index: 10;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        transition: left 0s 0.75s;
+    }
+
+    [id^="slide"]:checked+.slide {
+        left: 0;
+        z-index: 100;
+        transition: left 0.65s ease-out;
+    }
+
+    .slide-1 {
+        background-image: url(/foto/kv1_850.png);
+    }
+
+    .slide-2 {
+        background-image: url(/foto/kv2_850.png);
+    }
+
+    .slide-3 {
+        background-image: url(/foto/kv3_850.png);
+    }
+
+    .slide-4 {
+        background-image: url(/foto/kv4_850.png);
+    }
+
+    .slide-5 {
+        background-image: url(/foto/kv5_850.png);
+    }
+
+    .slide-6 {
+        background-image: url(/foto/kv6_850.png);
+    }
+
+    .slide-7 {
+        background-image: url(/foto/kv7_850.png);
+    }
+    .zapis_bg{
+        background-color: #FF90A0;
+        height: 700px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .opisanie{
+        width: 1300px;
+        font-size: 32px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .zapis_form{
+        width: 700px;
+        position: relative;
+        top: 80px;
+        left: -50px;
+    }
+    .zapis::placeholder{
+        color: black;
+    }
+    .zapis{
+        width: 650px;
+        height: 90px;
+        margin-bottom: 20px;
+        border: none;
+        color: black;
+        font-size: 35px;
+        border-radius: 30px;
+        padding-left: 15px;
+        outline: none;
+
+    }
+    .zapis2{
+        outline: none;
+        width: 669px;
+        height: 90px;
+        margin-bottom: 20px;
+        border: none;
+        color: black;
+        font-size: 35px;
+        border-radius: 30px;
+        padding-left: 15px;
+    }
+    option{
+        font-size: 15px;
+    }
+    .dialog img{
+        width: 700px;
+        height: 700px;
+        position: relative;
+        bottom: 45px;
+    }
+    .btn_otpavka{
+        outline: none;
+        width: 669px;
+        height: 90px;
+        margin-bottom: 20px;
+        border: none;
+        color: white;
+        font-size: 35px;
+        border-radius: 30px;
+        background-color: #2C4F54;
+    }
+    .kartocki{
+        display: flex;
+        justify-content: space-around;
+    }
+    h3{
+        font-size: 32px;
+        text-align: center;
+    }
+    .kart{
+        background-color: #9c69a57e;
+        width: 600px;
+        height: 800px;
+        border-radius: 30px;
+    }
+    .photo{
+        width: 400px;
+        margin: 0 auto;
+    }
+    .ssilki a{
+        color: black;
+        font-size: 30px;
+        cursor: pointer;
+        text-decoration: none;
+        display: block;
+        width: 500px;
+        margin-left: 20px;
+        margin-bottom: 25px;
+    }
+    .polosa2{
+        margin-top: 30px;
+    }
+    .contacts p{
+        font-size: 28px;
+        margin-left: 145px;
+    }
+}
+@media (max-width: 1439px) and (min-width: 768px){
+    .top {
+        background-color: #F7E8E8;
+        width: 100%;
+        height: 130px;
+
+    }
+
+    .seredina {
+        justify-content: space-around;
+        display: flex;
+        align-items: center;
+    }
+
+    .nazvan p {
+        align-items: center;
+        font-size: 28px;
+        margin-top: 55px;
+    }
+    .menu{
+        margin-top: 32px;
+        display: flex;
+    }
+    .menu a {
+        text-decoration: none;
+        font-size: 17px;
+        color: black;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+    .background{
+        background-image: url(/foto/bg1.png);
+        background-repeat: no-repeat;
+    }
+    .osnov_info {
+        display: flex;
+        height: 620px;
+
+    }
+
+    .foto img {
+        width: 240px;
+        height: 240px;
+        position: relative;
+        top: 95px;
+        left: 20px;
+
+    }
+
+    .kratko {
+        margin: 30px auto 0px;
+        width: 465px;
+        font-size: 28px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .vazhno {
+        display: flex;
+        justify-content: space-around;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .bolds {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: -25px;
+        text-align: center;
+    }
+
+    .vazhno2 {
+        margin-top: -15px;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .bolds2 {
+        font-size: 40px;
+        font-weight: bold;
+        margin-top: -25px;
+        text-align: center;
+        margin-right: 30px;
+    }
+
+    h2 {
+        text-align: center;
+        display: flex;
+        font-size: 45px;
+        width: 700px;
+        margin: -15px auto 30px;
+        justify-content: center;
+    }
+
+    .foto_plus_text {
+        display: flex;
+        justify-content: space-around;
+    }
+    .foto_plus_text img{
+        width: 305px;
+        height: 630px;
+    }
+
+    .text1 {
+        margin-bottom: 50px;
+        text-align: center;
+        width: 425px;
+        font-size: 20px;
+
+    }
+
+    .polosa {
+        height: 3px;
+        width: 450px;
+        background-color: black;
+    }
+
+    .text2 {
+        margin: -50px 80px 50px 100px ;
+        font-size: 20px;
+
+    }
+
+    .text3 {
+        position: relative;
+        left: 30px;
+        top: 15px;
+        font-size: 20px;
+        width: 435px;
+
+    }
+
+    .karusel {
+        justify-content: space-around;
+        display: flex;
+        height: 590px;
+    }
+
+    .slider-container {
+        height: 455px;
+        width: 440px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+    .slider-container input{
+        position: relative;
+        top: 300px;
+    }
+
+    .menu_prokrutka {
+        position: absolute;
+        left: 0;
+        z-index: 900;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .menu_prokrutka label {
+        cursor: pointer;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: #FF90A0;
+        border-radius: 50px;
+        margin: 0 0.2em 1em;
+    }
+
+    .menu_procrutka label:hover,
+    .menu_procrutka label:focus {
+        background: #1c87c9;
+    }
+
+    .slide {
+        width:425px;
+        height: 420px;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        z-index: 10;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        transition: left 0s 0.75s;
+    }
+
+    [id^="slide"]:checked+.slide {
+        left: 0;
+        z-index: 100;
+        transition: left 0.65s ease-out;
+    }
+
+    .slide-1 {
+        background-image: url(/foto/kv1_400.png);
+    }
+
+    .slide-2 {
+        background-image: url(/foto/kv2_400.png);
+    }
+
+    .slide-3 {
+        background-image: url(/foto/kv3_400.png);
+    }
+
+    .slide-4 {
+        background-image: url(/foto/kv4_400.png);
+    }
+
+    .slide-5 {
+        background-image: url(/foto/kv5_400.png);
+    }
+
+    .slide-6 {
+        background-image: url(/foto/kv6_400.png);
+    }
+
+    .slide-7 {
+        background-image: url(/foto/kv7_400.png);
+    }
+    
+    .kartocki{
+        display: flex;
+        justify-content: space-around;
+        height: 450px;
+    }
+    h3{
+        font-size: 22px;
+        text-align: center;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .kart{
+        background-color: #9c69a57e;
+        width: 300px;
+        height: 400px;
+        border-radius: 30px;
+    }
+    .photo{
+        width: 200px;
+        margin: 0 auto;
+
+    }
+    .photo img{
+        width: 200px;
+        height: 167px;
+    }
+    .ssilki a{
+        color: black;
+        font-size: 15px;
+        cursor: pointer;
+        text-decoration: none;
+        display: block;
+        width: 220px;
+        margin-left: 10px;
+        margin-bottom: 8px;
+    }
+    .zapis_bg{
+        background-color: #FF90A0;
+        height: 430px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .opisanie{
+        width: 700px;
+        font-size: 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .zapis_form{
+        width: 415px;
+        position: relative;
+        top: 35px;
+        left: -10px;
+    }
+    .zapis::placeholder{
+        color: black;
+    }
+    .zapis{
+        width: 385px;
+        height: 60px;
+        margin-bottom: 15px;
+        border: none;
+        color: black;
+        font-size: 25px;
+        border-radius: 15px;
+        padding-left: 15px;
+        outline: none;
+
+    }
+    .zapis2{
+        width: 400px;
+        height: 60px;
+        margin-bottom: 15px;
+        border: none;
+        color: black;
+        font-size: 25px;
+        border-radius: 15px;
+        padding-left: 15px;
+        outline: none;
+    }
+    option{
+        font-size: 15px;
+    }
+    .dialog img{
+        width: 350px;
+        height: 350px;
+        position: relative;
+        bottom: 15px;
+    }
+    .btn_otpavka{
+        outline: none;
+        width: 400px;
+        height: 60px;
+        border: none;
+        color: white;
+        font-size: 25px;
+        border-radius: 15px;
+        background-color: #2C4F54;
+    }
+    .polosa2{
+        margin-top: 30px;
+    }
+    .contacts p{
+        font-size: 15px;
+        margin-left: 35px;
+    }
+}
