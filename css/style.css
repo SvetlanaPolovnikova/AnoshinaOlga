@@ -607,12 +607,12 @@ body {
         color: black;
         font-size: 25px;
         border-radius: 15px;
-        padding-left: 15px;
+        padding-left: 10px;
         outline: none;
 
     }
     .zapis2{
-        width: 400px;
+        width: 395px;
         height: 60px;
         margin-bottom: 15px;
         border: none;
