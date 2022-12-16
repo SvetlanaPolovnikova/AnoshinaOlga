@@ -933,10 +933,10 @@ body {
     }
     .zapis_form{
         width: 300px;
-        position: relative;
-    top: -50px;
-    left: 40px;
-}
+        margin: 0 auto;
+    }
+    .forma{
+        width:300px;
     }
     .zapis::placeholder{
         color: black;
