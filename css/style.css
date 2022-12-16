@@ -786,7 +786,7 @@ body {
     .text2 {
         margin: -10px 0 40px 15px;
         font-size: 10px;
-
+        width: auto;
     }
 
     .text3 {
@@ -794,7 +794,7 @@ body {
         left: 15px;
         top: 5px;
         font-size: 10px;
-        
+        width: auto;
     }
 
     .karusel {
