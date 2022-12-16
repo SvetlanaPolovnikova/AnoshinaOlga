@@ -688,6 +688,8 @@ body {
     .osnov_info {
         display: flex;
         height: 365px;
+        width: 375px;
+        margin: 0 auto;
 
     }
     .opisanie1{
@@ -781,7 +783,6 @@ body {
     }
 
     .text2 {
-        width: 350px;
         margin: -10px 0 40px 15px;
         font-size: 10px;
 
@@ -792,8 +793,7 @@ body {
         left: 15px;
         top: 5px;
         font-size: 10px;
-        width: 350px;
-
+        
     }
 
     .karusel {
@@ -806,6 +806,7 @@ body {
         position: relative;
         overflow: hidden;
         text-align: center;
+        margin: 0 auto;
     }
     .slider-container input{
         position: relative;
@@ -921,6 +922,7 @@ body {
     .zapis_bg{
         background-color: #FF90A0;
         height: 510px;
+        
     }
     .opisanie{
         width: 325px;
@@ -933,6 +935,7 @@ body {
         position: relative;
         top: -50px;
         left: 40px;
+        margin: 0 auto;
     }
     .zapis::placeholder{
         color: black;
@@ -969,6 +972,7 @@ body {
         position: relative;
         bottom: 55px;
         left: 8px;
+        margin: 0 auto;
     }
     .btn_otpavka{
         outline: none;
