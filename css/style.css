@@ -669,9 +669,10 @@ body {
     .menu{
         margin-top: 9px;
         width: 100px;
-        margin-left: 40px;
         display: flex;
         text-align: right;
+        position: absolute;
+        right: 35px;
     }
     .menu a {
         margin-bottom: 5px;
@@ -933,8 +934,9 @@ body {
     .zapis_form{
         width: 300px;
         position: relative;
-        top: -50px;
-        margin: 0 auto;
+    top: -50px;
+    left: 40px;
+}
     }
     .zapis::placeholder{
         color: black;
