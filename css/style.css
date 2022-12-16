@@ -649,3 +649,681 @@ body {
         margin-left: 35px;
     }
 }
+@media (max-width: 767px) and (min-width: 375px) {
+    .top {
+        background-color: #F7E8E8;
+        width: 100%;
+        height: 90px;
+
+    }
+    .seredina {
+        display: flex;
+        align-items: center;
+        width: 375px;
+    }
+    .nazvan p {
+        margin-left: 10px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .menu{
+        margin-top: 9px;
+        width: 100px;
+        margin-left: 40px;
+        display: flex;
+        text-align: right;
+    }
+    .menu a {
+        margin-bottom: 5px;
+        text-decoration: none;
+        font-size: 15px;
+        color: black;
+        cursor: pointer;
+    }
+    .background{
+        background-image: url(https://svetlanapolovnikova.github.io/AnoshinaOlga/foto/bg2.png);
+        background-repeat: no-repeat;
+    }
+
+    .osnov_info {
+        display: flex;
+        height: 345px;
+
+    }
+    .opisanie1{
+        width: 230px;
+    }
+    .foto img {
+        width: 142px;
+        height: 142px;
+        position: relative;
+        top: 35px;
+        left: 5px;
+
+    }
+
+    .kratko {
+        margin: 15px  0px 0px 25px;
+        width: 190px;
+        font-size: 15px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .vazhno {
+        width: 296px;
+        display: flex;
+        font-size: 10px;
+        text-align: center;
+        position: relative;
+        top: 7px;
+        left: -75px;
+    }
+    .stazh{
+        width: 100px;
+        margin-right: 50px;
+    }
+    .bolds {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    .vazhno2 {
+        position: relative;
+        left: -70px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .bolds2 {
+        width: 340px;
+        position: relative;
+        left: -125px;
+        margin-top: -10px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-right: 30px;
+    }
+
+    h2 {
+        text-align: center;
+        display: flex;
+        font-size: 28px;
+        width: 375px;
+        margin: -15px auto 10px;
+        justify-content: center;
+    }
+
+    .foto_plus_text {
+        display: flex;
+        justify-content: space-around;
+    }
+    .foto_plus_text img{
+        width: 152px;
+        height: 301px;
+    }
+
+    .text1 {
+        margin-bottom: 15px;
+        text-align: center;
+        width: 200px;
+        font-size: 10px;
+
+    }
+
+    .polosa {
+        height: 1px;
+        width: 215px;
+        background-color: black;
+    }
+
+    .text2 {
+        width: 350px;
+        margin: -10px 0 40px 15px;
+        font-size: 10px;
+
+    }
+
+    .text3 {
+        position: relative;
+        left: 15px;
+        top: 5px;
+        font-size: 10px;
+        width: 350px;
+
+    }
+
+    .karusel {
+        height: 500px;
+    }
+
+    .slider-container {
+        height: 350px;
+        width: 375px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+    .slider-container input{
+        position: relative;
+        top: 200px;
+    }
+
+    .menu_prokrutka {
+        position: absolute;
+        left: 0;
+        z-index: 900;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .menu_prokrutka label {
+        cursor: pointer;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: #FF90A0;
+        border-radius: 50px;
+        margin: 0 0.2em 1em;
+    }
+
+    .menu_procrutka label:hover,
+    .menu_procrutka label:focus {
+        background: #1c87c9;
+    }
+
+    .slide {
+        width:375px;
+        height: 315px;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        z-index: 10;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        transition: left 0s 0.75s;
+    }
+
+    [id^="slide"]:checked+.slide {
+        left: 0;
+        z-index: 100;
+        transition: left 0.65s ease-out;
+    }
+
+    .slide-1 {
+        background-image: url(https://svetlanapolovnikova.github.io/AnoshinaOlga/foto/kv1_150.png);
+    }
+
+    .slide-2 {
+        background-image: url(https://svetlanapolovnikova.github.io/AnoshinaOlga/foto/kv2_150.png);
+    }
+
+    .slide-3 {
+        background-image: url(https://svetlanapolovnikova.github.io/AnoshinaOlga/foto/kv3_150.png);
+    }
+
+    .slide-4 {
+        background-image: url(https://svetlanapolovnikova.github.io/AnoshinaOlga/foto/kv4_150.png);
+    }
+
+    .slide-5 {
+        background-image: url(https://svetlanapolovnikova.github.io/AnoshinaOlga/foto/kv5_150.png);
+    }
+
+    .slide-6 {
+        background-image: url(https://svetlanapolovnikova.github.io/AnoshinaOlga/foto/kv6_150.png);
+    }
+
+    .slide-7 {
+        background-image: url(https://svetlanapolovnikova.github.io/AnoshinaOlga/foto/kv7_150.png);
+    }
+    
+    .kartocki{
+        margin: 0 auto;
+        width: 300px;
+        height: 735px;
+    }
+    h3{
+        font-size: 15px;
+        text-align: center;
+        margin-top: -5px;
+        margin-bottom: 10px;
+    }
+    .kart{
+        background-color: #9c69a57e;
+        width: 300px;
+        height: 340px;
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+    .photo{
+        width: 200px;
+        margin: 0 auto;
+
+    }
+    .photo img{
+        width: 200px;
+        height: 167px;
+    }
+    .ssilki a{
+        color: black;
+        font-size: 15px;
+        cursor: pointer;
+        text-decoration: none;
+        display: block;
+        width: 220px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    .zapis_bg{
+        background-color: #FF90A0;
+        height: 510px;
+    }
+    .opisanie{
+        width: 325px;
+        font-size: 10px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .zapis_form{
+        width: 300px;
+        position: relative;
+        top: -50px;
+        left: 40px;
+    }
+    .zapis::placeholder{
+        color: black;
+    }
+    .zapis{
+        width: 280px;
+        height: 30px;
+        margin-bottom: 8px;
+        border: none;
+        color: black;
+        font-size: 10px;
+        border-radius: 5px;
+        padding-left: 8px;
+        outline: none;
+
+    }
+    .zapis2{
+        width: 290px;
+        height: 30px;
+        margin-bottom: 10px;
+        border: none;
+        color: black;
+        font-size: 10px;
+        border-radius: 5px;
+        padding-left: 8px;
+        outline: none;
+    }
+    option{
+        font-size: 15px;
+    }
+    .dialog img{
+        width: 350px;
+        height: 350px;
+        position: relative;
+        bottom: 55px;
+        left: 8px;
+    }
+    .btn_otpavka{
+        outline: none;
+        width: 290px;
+        height: 30px;
+        border: none;
+        color: white;
+        font-size: 15px;
+        border-radius: 5px;
+        background-color: #2C4F54;
+    }
+    .polosa2{
+        margin-top: 10px;
+    }
+    .contacts p{
+        font-size: 7px;
+        margin-left: 20px;
+    }
+}
+@media (max-width: 374px) and (min-width: 1px) {
+    .top {
+        background-color: #F7E8E8;
+        width: 100%;
+        height: 90px;
+
+    }
+    .seredina {
+        display: flex;
+        align-items: center;
+        width: 375px;
+    }
+    .nazvan p {
+        margin-left: 10px;
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .menu{
+        margin-top: 9px;
+        width: 100px;
+        margin-left: 40px;
+        display: flex;
+        text-align: right;
+    }
+    .menu a {
+        margin-bottom: 5px;
+        text-decoration: none;
+        font-size: 15px;
+        color: black;
+        cursor: pointer;
+    }
+    .background{
+        background-image: url(https://svetlanapolovnikova.github.io/AnoshinaOlga/foto/bg2.png);
+        background-repeat: no-repeat;
+    }
+
+    .osnov_info {
+        display: flex;
+        height: 345px;
+
+    }
+    .opisanie1{
+        width: 230px;
+    }
+    .foto img {
+        width: 142px;
+        height: 142px;
+        position: relative;
+        top: 35px;
+        left: 5px;
+
+    }
+
+    .kratko {
+        margin: 15px  0px 0px 25px;
+        width: 190px;
+        font-size: 15px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .vazhno {
+        width: 296px;
+        display: flex;
+        font-size: 10px;
+        text-align: center;
+        position: relative;
+        top: 7px;
+        left: -75px;
+    }
+    .stazh{
+        width: 100px;
+        margin-right: 50px;
+    }
+    .bolds {
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: -10px;
+    }
+
+    .vazhno2 {
+        position: relative;
+        left: -70px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .bolds2 {
+        width: 340px;
+        position: relative;
+        left: -125px;
+        margin-top: -10px;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        margin-right: 30px;
+    }
+
+    h2 {
+        text-align: center;
+        display: flex;
+        font-size: 28px;
+        width: 375px;
+        margin: -15px auto 10px;
+        justify-content: center;
+    }
+
+    .foto_plus_text {
+        display: flex;
+        justify-content: space-around;
+    }
+    .foto_plus_text img{
+        width: 152px;
+        height: 301px;
+    }
+
+    .text1 {
+        margin-bottom: 15px;
+        text-align: center;
+        width: 200px;
+        font-size: 10px;
+
+    }
+
+    .polosa {
+        height: 1px;
+        width: 215px;
+        background-color: black;
+    }
+
+    .text2 {
+        width: 350px;
+        margin: -10px 0 40px 15px;
+        font-size: 10px;
+
+    }
+
+    .text3 {
+        position: relative;
+        left: 15px;
+        top: 5px;
+        font-size: 10px;
+        width: 350px;
+
+    }
+
+    .karusel {
+        height: 500px;
+    }
+
+    .slider-container {
+        height: 350px;
+        width: 375px;
+        position: relative;
+        overflow: hidden;
+        text-align: center;
+    }
+    .slider-container input{
+        position: relative;
+        top: 200px;
+    }
+
+    .menu_prokrutka {
+        position: absolute;
+        left: 0;
+        z-index: 900;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .menu_prokrutka label {
+        cursor: pointer;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: #FF90A0;
+        border-radius: 50px;
+        margin: 0 0.2em 1em;
+    }
+
+    .menu_procrutka label:hover,
+    .menu_procrutka label:focus {
+        background: #1c87c9;
+    }
+
+    .slide {
+        width:375px;
+        height: 315px;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        z-index: 10;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        transition: left 0s 0.75s;
+    }
+
+    [id^="slide"]:checked+.slide {
+        left: 0;
+        z-index: 100;
+        transition: left 0.65s ease-out;
+    }
+
+    .slide-1 {
+        background-image: url(https://svetlanapolovnikova.github.io/AnoshinaOlga/foto/kv1_150.png);
+    }
+
+    .slide-2 {
+        background-image: url(https://svetlanapolovnikova.github.io/AnoshinaOlga/foto/kv2_150.png);
+    }
+
+    .slide-3 {
+        background-image: url(https://svetlanapolovnikova.github.io/AnoshinaOlga/foto/kv3_150.png);
+    }
+
+    .slide-4 {
+        background-image: url(https://svetlanapolovnikova.github.io/AnoshinaOlga/foto/kv4_150.png);
+    }
+
+    .slide-5 {
+        background-image: url(https://svetlanapolovnikova.github.io/AnoshinaOlga/foto/kv5_150.png);
+    }
+
+    .slide-6 {
+        background-image: url(https://svetlanapolovnikova.github.io/AnoshinaOlga/foto/kv6_150.png);
+    }
+
+    .slide-7 {
+        background-image: url(https://svetlanapolovnikova.github.io/AnoshinaOlga/foto/kv7_150.png);
+    }
+    
+    .kartocki{
+        margin: 0 auto;
+        width: 300px;
+        height: 735px;
+    }
+    h3{
+        font-size: 15px;
+        text-align: center;
+        margin-top: -5px;
+        margin-bottom: 10px;
+    }
+    .kart{
+        background-color: #9c69a57e;
+        width: 300px;
+        height: 340px;
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+    .photo{
+        width: 200px;
+        margin: 0 auto;
+
+    }
+    .photo img{
+        width: 200px;
+        height: 167px;
+    }
+    .ssilki a{
+        color: black;
+        font-size: 15px;
+        cursor: pointer;
+        text-decoration: none;
+        display: block;
+        width: 220px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+    }
+    .zapis_bg{
+        background-color: #FF90A0;
+        height: 510px;
+    }
+    .opisanie{
+        width: 325px;
+        font-size: 10px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .zapis_form{
+        width: 300px;
+        position: relative;
+        top: -50px;
+        left: 40px;
+    }
+    .zapis::placeholder{
+        color: black;
+    }
+    .zapis{
+        width: 280px;
+        height: 30px;
+        margin-bottom: 8px;
+        border: none;
+        color: black;
+        font-size: 10px;
+        border-radius: 5px;
+        padding-left: 8px;
+        outline: none;
+
+    }
+    .zapis2{
+        width: 290px;
+        height: 30px;
+        margin-bottom: 10px;
+        border: none;
+        color: black;
+        font-size: 10px;
+        border-radius: 5px;
+        padding-left: 8px;
+        outline: none;
+    }
+    option{
+        font-size: 15px;
+    }
+    .dialog img{
+        width: 350px;
+        height: 350px;
+        position: relative;
+        bottom: 55px;
+        left: 8px;
+    }
+    .btn_otpavka{
+        outline: none;
+        width: 290px;
+        height: 30px;
+        border: none;
+        color: white;
+        font-size: 15px;
+        border-radius: 5px;
+        background-color: #2C4F54;
+    }
+    .polosa2{
+        margin-top: 10px;
+    }
+    .contacts p{
+        font-size: 7px;
+        margin-left: 20px;
+    }
+}
