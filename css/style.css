@@ -666,13 +666,18 @@ body {
         font-size: 20px;
         margin-top: 20px;
     }
+    .logo{
+        align-items: center;
+        display: flex;
+        height: 90px;
+    }
+        
     .menu{
-        margin-top: 20px;
         width: 100px;
         display: flex;
         text-align: right;
         position: absolute;
-        right: 35px;
+        right: 40px;
     }
     .menu a {
         margin-bottom: 5px;
@@ -786,7 +791,7 @@ body {
     .text2 {
         margin: -10px 0 40px 15px;
         font-size: 10px;
-        width: 360px;
+        width: 340px;
     }
 
     .text3 {
