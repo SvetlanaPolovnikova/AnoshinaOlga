@@ -937,13 +937,10 @@ body {
         margin: 0 auto;
     }
     .zapis_form{
-        width: 300px;
+        width: 315px;
+        margin: 0 auto;
         position: relative;
         top: -60px;
-        left: 45px;
-    }
-    .forma{
-        width:300px;
     }
     .zapis::placeholder{
         color: black;
@@ -978,9 +975,11 @@ body {
     .dialog img{
         width: 350px;
         height: 350px;
-        position: relative;
-        bottom: 55px;
-        left: 8px;
+    }
+    .dialog{
+        width: 350px;
+        height: 350px;
+        margin: 0 auto;
     }
     .btn_otpavka{
         outline: none;
