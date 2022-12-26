@@ -321,8 +321,8 @@ body {
         margin-top: 30px;
     }
     .contacts p{
-        font-size: 28px;
-        margin-left: 145px;
+        font-size: 20px;
+        margin-left: 100px;
     }
 }
 @media (max-width: 1439px) and (min-width: 768px){
