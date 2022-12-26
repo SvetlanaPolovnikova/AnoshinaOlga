@@ -7,7 +7,7 @@ body {
         margin: 0;
         padding: 0;
     }
-@media (max-width:1920px)and (min-width: 1440px) {
+@media (max-width:15000px)and (min-width: 1440px) {
     .top {
         background-color: #F7E8E8;
         width: 100%;
@@ -956,8 +956,8 @@ body {
 
     }
     .zapis2{
-        width: 290px;
-        height: 30px;
+        width: 293px;
+        height: 33px;
         margin-bottom: 10px;
         border: none;
         color: black;
@@ -965,6 +965,7 @@ body {
         border-radius: 5px;
         padding-left: 8px;
         outline: none;
+        background-color: #fff;
     }
     option{
         font-size: 15px;
@@ -978,8 +979,8 @@ body {
     }
     .btn_otpavka{
         outline: none;
-        width: 290px;
-        height: 30px;
+        width: 293px;
+        height: 33px;
         border: none;
         color: white;
         font-size: 15px;
