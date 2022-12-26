@@ -937,7 +937,7 @@ body {
         margin: 0 auto;
     }
     .zapis_form{
-        width: 315px;
+        width: 293px;
         margin: 0 auto;
         position: relative;
         top: -60px;
@@ -977,6 +977,8 @@ body {
         height: 350px;
     }
     .dialog{
+        position: relative;
+        top: -55px;
         width: 350px;
         height: 350px;
         margin: 0 auto;
